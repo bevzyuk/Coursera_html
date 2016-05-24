@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;	
+	 
+}
+body {
+	font-family: serif;
+}
+h3 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.row {
+	width: 100%;
+	margin:0;
+	padding: 10px;
+	align-content: center;
+}
+.section {
+	position: relative;
+	border: 1px solid black;
+	height: 100px;
+	background-color: lightgrey;
+	margin-right: 10px;
+	margin-left: auto;
+	margin-bottom: 5px;
+}
+.fish {
+	background-color: #ff9889;
+}
+.meat {
+	background-color: #aa8d8d;
+}
+.fruit {	
+	background-color: #ba8d8d;
+}
+.section div {
+	font-size: 1.1em;
+	width: 100px;
+	text-align: center;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	float: right;
+	border: 1px solid black;
+
+}
+p {
+	display: inline-block;
+	padding:5px;
+}
+
+/* For web-browsers */
+@media (min-width: 992px) {
+	
+	.col-lg-4 {
+		float: left;	
+		width: 33.33%;		
+		height: 100px;			
+		overflow: hidden;
+
+	}
+
+	
+}
+
+/* For tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+	 .col-md-6 {
+		float: left;		
+		width: 50%;
+		height: 100px;		
+		overflow: hidden;
+		
+	}
+	.col-md-12{
+		float: left;		
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+  
+}
+
+
+}
