@@ -20,6 +20,7 @@ var speakWord = "Good Bye";
   console.log(speakWord + " " + name);
 }
  
+ //This is additional code for creating listItem
  byeSpeaker.addToList = function(name){
  	
   	var child = document.createElement("li");

@@ -17,10 +17,11 @@ var speakWord = "Hello";
   console.log(speakWord + " " + name);
  }
 
+//This is additional code for creating listItem
  helloSpeaker.addToList = function(name){
  	
   	var child = document.createElement("li");
-	  child.innerHTML = speakWord + " " + name;
+	child.innerHTML = speakWord + " " + name;
 	if (parent!=null) {
 	  parent.appendChild(child); 
   }
